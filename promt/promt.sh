@@ -1,5 +1,6 @@
 #! /bin/bash
 clear
+#custom ascii logo
 echo "   ▓▓▓▓▓▓─┐
   ▓▓ ┌──▓▓└┐ ▓▓▓▓▓▓
   └──┘  ▓▓ │▓▓┌──┐▓▓┐
@@ -10,7 +11,7 @@ echo "   ▓▓▓▓▓▓─┐
    └──────┘  ▓▓▓▓▓▓┌┘ ▓▓┐
               └────┘   └┘" | pv -qL 90 && sleep 2s
 clear
-echo "Booting cynageOS..." | pv -qL 50 && sleep 1s
+echo "Booting cynageOS..." | pv -qL 50 && sleep 1s 
 
 clear
 echo "Logging into https://github.com/ekahPruthvi.git ...........
